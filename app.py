@@ -17,10 +17,10 @@ url = 'https://raw.githubusercontent.com/eric-r-cooper/my_insight_app/master/APP
 
 
 #df = pd.read_csv(url, error_bad_lines=False)
-t1 = pd.read_csv('https://raw.githubusercontent.com/eric-r-cooper/nyc_lead_water_service/master/APP_DATA_address.csv',error_bad_lines=False)
-t2 = pd.read_csv('https://raw.githubusercontent.com/eric-r-cooper/nyc_lead_water_service/master/APP_DATA_yr.csv',error_bad_lines=False)
-t3 = pd.read_csv('https://raw.githubusercontent.com/eric-r-cooper/nyc_lead_water_service/master/APP_DATA_lat.csv',error_bad_lines=False)
-t4 = pd.read_csv('https://raw.githubusercontent.com/eric-r-cooper/nyc_lead_water_service/master/APP_DATA_lon.csv',error_bad_lines=False)
+t1 = pd.read_csv('https://raw.githubusercontent.com/eric-r-cooper/NYC_Lead_Locator/master/APP_DATA_address.csv',error_bad_lines=False)
+t2 = pd.read_csv('https://raw.githubusercontent.com/eric-r-cooper/NYC_Lead_Locator/master/APP_DATA_yr.csv',error_bad_lines=False)
+t3 = pd.read_csv('https://raw.githubusercontent.com/eric-r-cooper/NYC_Lead_Locator/master/APP_DATA_lat.csv',error_bad_lines=False)
+t4 = pd.read_csv('https://raw.githubusercontent.com/eric-r-cooper/NYC_Lead_Locator/master/APP_DATA_lon.csv',error_bad_lines=False)
 df = t1.merge(t2)
 df = df.merge(t3)
 df = df.merge(t4)
