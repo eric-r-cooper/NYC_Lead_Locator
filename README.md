@@ -1,5 +1,6 @@
 ## New York City Lead Locator
 
+When the Flint, MI water crisis broke in 2014 the U.S. begin to face a reckoning with regard to the the drinking water infrastructure. The number American homes receiving drinking water via lead service lines ranges from 6-10 million. Even small exposure levels can lead to significant adverse developmental and physical effects, especially among young children. Since these pipes are located underground and cities operate under budget constaints there is a need for predicting their locations as to avoid wasteful spending.
 
 ### The New York City Lead Locator is an application that uses public housing and U.S. Census records to predict the locations of lead water service lines in New York City. 
 
